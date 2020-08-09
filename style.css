@@ -1,16 +1,10 @@
 .displaynone {
   display: none;
 }
-/* .card {
-  border: 1px solid grey;
-} */
 .image {
   max-width: 70%;
   margin-left: auto;
 }
-/* .display {
-  height: 200px;
-} */
 #sectioname,
 #Abstract,
 #Title {
@@ -47,4 +41,15 @@ body {
 }
 .h4 {
   text-align: center;
+}
+
+.head {
+  font-family: "Cookie", cursive;
+  color: red;
+  font-size: 80px;
+}
+.instructions {
+  font-family: "Cookie", cursive;
+  color: rgb(40, 2, 207);
+  font-size: 50px;
 }
