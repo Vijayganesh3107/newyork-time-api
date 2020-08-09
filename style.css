@@ -1,0 +1,47 @@
+.displaynone {
+  display: none;
+}
+/* .card {
+  border: 1px solid grey;
+} */
+.image {
+  max-width: 50%;
+  margin-left: auto;
+}
+/* .display {
+  height: 200px;
+} */
+#sectioname,
+#Abstract,
+#Title {
+  font-family: "Cinzel", serif;
+}
+#sectioname {
+  font-size: 25px;
+  color: rgb(40, 2, 207);
+}
+.button1 {
+  text-align: center;
+}
+.display {
+  background-image: linear-gradient(
+    to bottom,
+    #b0b4bb,
+    #c4c6cc,
+    #d8d9dc,
+    #ececee,
+    #ffffff
+  );
+}
+.box {
+  -webkit-box-shadow: 59px -1px 85px -28px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 59px -1px 85px -28px rgba(0, 0, 0, 0.75);
+  box-shadow: 59px -1px 85px -28px rgba(0, 0, 0, 0.75);
+}
+body {
+  background-color: darkgray;
+}
+
+.group {
+  margin-top: 30px;
+}
