@@ -63,7 +63,7 @@ async function displaySectionWise(section) {
     var pannelheading = document.createElement("div");
     pannelheading.setAttribute("class", "panel-heading");
     var h4 = document.createElement("h4");
-    h4.setAttribute("class", "panel-title");
+    h4.setAttribute("class", "panel-title h4");
     var target = "#" + id;
     var link = document.createElement("a");
     link.setAttribute("data-toggle", "collapse");
@@ -125,14 +125,10 @@ async function displaySectionWise(section) {
     contnentright.appendChild(imagediv);
     pannelbody.appendChild(contentleftdiv);
     pannelbody.appendChild(contnentright);
-
-    // pannelbody.innerHTML =
-    //   "Lorem ipsum dolor sit amet, consectetur adipisicing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat";
     id++;
     Datadiv.appendChild(pannelbody);
     heading.appendChild(Datadiv);
     divaccordian.appendChild(heading);
-    // divaccordian.classList.add("displaynone");
     container.appendChild(divaccordian);
   });
 
